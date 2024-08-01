@@ -8,3 +8,6 @@ Hola Gente! Aqui estamos!!!
 
 >[!Note]
 Inicio del proyecto
+
+>[!WARNING]
+La rama "Main" ha sido cambiada a la rama "Master" por que es mas pulento
