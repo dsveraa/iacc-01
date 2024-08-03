@@ -1,5 +1,6 @@
-import Comp from "./Component"
-import Otro from "./Otro"
+import Comp from "./Components/Component";
+import NavBar from "./Components/NavBar";
+import Otro from "./Components/Otro";
 import './index.css';
 
 let nombre = "David"
@@ -9,15 +10,13 @@ function App() {
 
   return (
     <>
-      <div className="hola">
-      <Comp/>
-      </div>
-      <h1>Hola a todos!,especialmente a {nombre}</h1>
-      <Otro/>
-    
+      <div>
+      <NavBar/>
       
+      </div>
+       
     </>
   )
 }
 
-export default App
+export default App 
