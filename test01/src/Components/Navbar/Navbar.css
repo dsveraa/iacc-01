@@ -1,0 +1,48 @@
+.header{
+    width: 80%;
+    padding: 20px 10px;
+    background-color: palevioletred;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    z-index: 100;
+    
+}
+
+.logo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.navbar{
+    margin-left: auto;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    
+}
+
+.navbar a:hover{
+    color: aquamarine;
+}
+
+button{
+    padding: 8px;
+    margin-left: 40px;
+    margin-right: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 0px;
+}
+
+button:hover{
+    box-shadow: inset;
+}

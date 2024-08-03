@@ -1,9 +1,6 @@
-import Comp from "./Components/Component";
-import NavBar from "./Components/NavBar";
-import Otro from "./Components/Otro";
-import './index.css';
 
-let nombre = "David"
+import NavBar from './Components/Navbar/NavBar';
+import './index.css';
 
 function App() {
   
@@ -12,7 +9,6 @@ function App() {
     <>
       <div>
       <NavBar/>
-      
       </div>
        
     </>
