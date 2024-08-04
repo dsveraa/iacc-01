@@ -3,15 +3,13 @@ import './Card.css'
 
 
 
-const Card = () => {
+const Card = ({image,titulo,descripcion}) => {
   return (
     <div className="conteiner">
     <div className='card'>
-        <img src="./images/peluquerias.jpg" alt="Peluqueria" />
-        <h2>Titulo</h2>
-        <p>Descripcion del servicio
-            
-        </p>
+        <img src={image} alt="Peluqueria" />
+        <h2>{titulo}</h2>
+        <p>{descripcion}</p>
          
     </div>
     </div>
