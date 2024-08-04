@@ -1,0 +1,37 @@
+.conteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    background-color: beige;
+    box-shadow: 5px 5px 5px 4px;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border: solid;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+h2 p{
+    
+}

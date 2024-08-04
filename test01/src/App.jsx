@@ -1,4 +1,5 @@
 
+import Card from './Components/Card/Card';
 import NavBar from './Components/Navbar/NavBar';
 import './index.css';
 
@@ -9,6 +10,11 @@ function App() {
     <>
       <div>
       <NavBar/>
+      <div className="tarjetas">
+      <Card/>
+      <Card/>
+      </div>
+      
       </div>
        
     </>

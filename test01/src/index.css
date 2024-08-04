@@ -11,3 +11,8 @@
 body{
   background-color: antiquewhite;
 }
+
+.tarjetas {
+  display: flex;
+  justify-content: center;
+}
