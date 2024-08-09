@@ -11,8 +11,8 @@ function App() {
       <div>
       <NavBar/>
       <div className="tarjetas">
-      <Card image="./images/peluquerias.jpg" titulo="Peluqueria" descripcion="Cortes de pelo y mas"/>
-      <Card image="./images/Manicura.jpg" titulo="Manicura" descripcion="Retoca tus uñas con bellos diseños"/>
+      <Card image="/images/peluquerias.jpg" titulo="Peluqueria" descripcion="Cortes de pelo y mas"/>
+      <Card image="/images/Manicura.jpg" titulo="Manicura" descripcion="Retoca tus uñas con bellos diseños"/>
       </div>
       
       </div>

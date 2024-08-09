@@ -7,8 +7,10 @@ template_dir = os.path.join(template_dir, 'src', 'templates')
 
 app = Flask(__name__, template_folder=template_dir)
 
+print(template_dir)
+
 # Rutas de la app
-@app.route('/')
+""" @app.route('/')
 def home():
     cursor = db.database.cursor()
     cursor.execute("SELECT * FROM users")
@@ -23,5 +25,5 @@ def home():
     return render_template('index.html', data=insertObject)
 
 if __name__ == '__main__':
-    app.run(debug=True, port=4000)
+    app.run(debug=True, port=4000) """
 
